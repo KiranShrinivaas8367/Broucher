@@ -1,0 +1,185 @@
+body {
+    background-color: #FFFFFF;
+    padding: 0 10px;
+    margin: 0 10px;
+    text-align: center;
+    font-family: 'Roboto', arial;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+}
+
+.navbar{
+    display: flex;
+    color: darkgray;
+    background-color: dimgray;
+    padding: 25px 10px;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.navbar-link a{
+    color:rgb(146, 201, 201);
+    padding: 0px 25px;
+    font-size:x-large;
+    text-decoration: none;
+    list-style-type: none;
+
+}
+
+/* about */
+
+#about{
+    display: flex;
+    color: dimgrey;
+    background-color: #1F2937;
+    align-items: center;
+    justify-content: center;
+    padding: 90px;
+}
+
+.about-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+    margin-right: 60px;
+    margin-left: 150px;
+
+}
+
+.about-content p{
+    font-family: 'Roboto', 'Times New Roman', Times, serif;
+    font-size: 30px;
+}
+
+.about-img img{
+    width: 500px;
+    height: 500px;
+}
+
+h1{
+    color:dimgray;
+    font-weight: bolder;
+    font-size: 75px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+#about button{
+    display: block;
+    text-align: center;
+    width: 110px;
+    border: 3px solid black;
+    background: #385077;
+    padding: 15px;
+    border-radius: 8px;
+    color: #fff;
+    font-family: 'Roboto', arial;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.about img {
+    width: 500px;
+    height: 550px;
+}
+
+/* Buy */
+
+#buy{
+    align-items: center;
+}
+
+ .content-info{
+     display:flex;
+     justify-content: center;
+     flex-wrap: wrap;
+ }
+
+ .content-info p{
+     font-family: 'Times New Roman', Times, serif;
+     font-size: 2rem;
+     color:dimgray;
+ }
+
+ .content-info img{
+     width: 250px;
+     height: 300px;
+     object-fit: cover;
+     border: 6px solid #ccc;
+     border-radius: 10px;
+     margin: 5px 25px;
+
+ }
+
+ /* Quote */
+
+ #quote{
+     display: flex;
+     flex-direction: column;
+     background-color: #ccc;
+     padding: 50px 50px ;
+
+ }
+
+ #quote p{
+     font-size: 30px;
+     font-weight: bold;
+     font-family: monospace;
+     color:darkcyan;
+ }
+
+ .quote b{
+     display: flex;
+     justify-content: flex-end;
+     /*text-align:right;*/
+     padding-right: 20px;
+     font-style: italic;
+     font-size: 30px;
+ }
+
+ /* sign-up*/
+
+ .sign-up{
+     background-color: grey;
+     padding: 20px 50px; 
+     margin: 20px 110px;
+     text-align: center;
+     display: flex;
+     justify-content: center;
+     border-radius: 10px;
+     border-style:none;
+ }
+
+ .sign-up_content p{
+     color: #ccc;
+     font-size: 30px;
+     padding: 10px 30px 10px 20px;
+ }
+
+ h2{
+     font-family: serif;
+     color:brown;
+     text-align: center;
+
+ }
+
+ .sign-up button{
+     display: block;
+     width: 110px;
+     height: 50px;
+     padding: 15px;
+     font-weight: bolder;
+     border-radius: 7px;
+     background-color:#385077;
+     color:gray;
+ }
+
+ .footer{
+     background-color: #1F2937;
+     color: #ccc;
+     font-size: 1.5rem;
+ }
