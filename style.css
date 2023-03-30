@@ -1,7 +1,7 @@
 body {
     background-color: #FFFFFF;
-    padding: 0 10px;
-    margin: 0 10px;
+    /* padding: 0 10px;
+    margin: 0 10px; */
     text-align: center;
     font-family: 'Roboto', arial;
 }
@@ -47,8 +47,6 @@ body {
     justify-content: center;
     text-align: left;
     margin-right: 60px;
-    margin-left: 150px;
-
 }
 
 .about-content p{
@@ -129,7 +127,7 @@ h1{
      font-size: 30px;
      font-weight: bold;
      font-family: monospace;
-     color:darkcyan;
+     color:rgb(19, 92, 92);
  }
 
  .quote b{
@@ -145,8 +143,8 @@ h1{
 
  .sign-up{
      background-color: grey;
-     padding: 20px 50px; 
-     margin: 20px 110px;
+     padding: 20px 20px; 
+     margin: 20px 20px;
      text-align: center;
      display: flex;
      justify-content: center;
@@ -162,7 +160,7 @@ h1{
 
  h2{
      font-family: serif;
-     color:brown;
+     color:rgb(90, 14, 14);
      text-align: center;
 
  }
@@ -175,7 +173,7 @@ h1{
      font-weight: bolder;
      border-radius: 7px;
      background-color:#385077;
-     color:gray;
+     color:rgb(233, 230, 230);
  }
 
  .footer{
